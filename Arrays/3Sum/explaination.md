@@ -1,1 +1,3 @@
-
+We are kind of deriving it from the 2 Sum approach...
+Since original index are not asked so no need of hashmap shit and also we can sort the given array..... **2 POINTER**
+Now Run a loop over the sorted arrray upto n-2... because 
