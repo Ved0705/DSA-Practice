@@ -8,7 +8,7 @@ public:
         int mid=l+(h-l)/2;
         if(target==nums[mid]){
             ans=mid;
-            h=mid-1;
+            h=mid-1; //keep shifting left even if u find the ans
         }
         else if(target>nums[mid]){
             l=mid+1;
@@ -28,7 +28,7 @@ public:
         int mid=l+(h-l)/2;
         if(target==nums[mid]){
             ans=mid;
-            l=mid+1;
+            l=mid+1;   //keep shifting rightwards
         }
         else if(target>nums[mid]){
             l=mid+1;
